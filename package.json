@@ -1,0 +1,44 @@
+{
+    "author": "Benni",
+    "dependencies": {},
+    "keywords": [],
+    "name": "biercounter",
+    "pebble": {
+        "displayName": "BierCounter",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/preview.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_PREVIEW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/action_icon_plus.png",
+                    "name": "IMAGE_ACTION_ICON_PLUS",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/action_icon_minus.png",
+                    "name": "IMAGE_ACTION_ICON_MINUS",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "f2b6f828-01be-4b0c-a832-985be8b4f1f3",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
